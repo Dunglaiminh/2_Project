@@ -240,7 +240,7 @@ plt.tight_layout()
 ``` 
 ### Kết quả 
 
-![1_Skills_Demand](Images/1_Skills_Demand.png ) 
+![1_Skills_Demand](Images/1_Skills_Demand.png) 
 
 ### Thông tin rút ra 
 
