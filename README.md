@@ -666,7 +666,7 @@ plt.show()
 ``` 
 
 ### Result  
-![alt text](Images\4_Optimal_Skills.png)
+![alt text](Images/4_Optimal_Skills.png)
 
 
 ### Insights 
