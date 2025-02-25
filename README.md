@@ -236,7 +236,7 @@ plt.tight_layout()
 ```
 ### Result 
 
-![1_Skills_Demand](Images\1_Skills_Demand.png)
+![1_Skills_Demand](Images/1_Skills_Demand.png)
 
 ### Insight 
 
