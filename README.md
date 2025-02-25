@@ -2,7 +2,7 @@
 
 Welcome to my data analysis project, which provides an in-depth examination of the global data job market. This project aims not only to offer valuable insights into the current job landscape but also to showcase my skills and dedication. 
 
-Using Python and other analytical tools, I have successfully addressed four key questions related to data jobs. Additionally, visualizations have been incorporated to enhance clarity and improve the comprehensibility of the findings. Below are the results. 
+Using Python and other analytical tools, I have successfully addressed four key questions related to data jobs. Additionally, visualizations have been incorporated to enhance clarity and improve the comprehensibility of the findings. 
 
 *DISCLAIMER* 
 - The main data is sourced from [Luke Barousse's Python Course](https://lukebarousse.com/python) 
@@ -64,6 +64,9 @@ dataset = load_dataset('lukebarousse/data_jobs')
 df = dataset['train'].to_pandas() 
 ``` 
 To see a detailed version of the data clean up, visit [1_Skills_Demand.ipynb](1_Skills_Demand.ipynb) 
+
+After importing and loading the datasets, I begin to fix the columns into their correct format.
+
 ``` python 
 # Data Cleanup
 df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
@@ -75,7 +78,7 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 ### Brief analysis 
 Detailed version: [1_Skills_Demand.ipynb](1_Skills_Demand.ipynb)
 
-To identify the top free most popular data roles in the United States, I first filtered the dataset to include only job listings based in the U.S. 
+To identify the top three most popular data roles in the United States, I first filtered the dataset to include only job listings based in the U.S. 
 
 ``` python 
 df_US = df[df['job_country'] == 'United States']
@@ -456,6 +459,7 @@ Excel maintains a strong demand but trends downward over the months, indicating 
 Both Python and Tableau show relatively stable demand, with minor fluctuations. This suggests that companies are increasingly looking for analysts who can perform programming-based analysis and data visualization alongside traditional tools like Excel.
 
 ## 3. What are the salaries of the six most common jobs in the United States?  
+
 ### Brief analysis 
 
 Detailed version: [3_Salary_Analysis.ipynb](3_Salary_Analysis.ipynb) 
@@ -501,6 +505,7 @@ Among the six roles, Data Analysts have the lowest median salary and the smalles
 
 ## 4. What are the most optimal skills for Data Analysts? 
 
+### Brief analysis 
 Detailed version: [4_Optimal_Skills.ipynb](4_Optimal_Skills.ipynb) 
 
 To find the most optimal skills for Data Analysts, first I used the `.groupby()` function to create a DataFrame that counts the occurrences of each skill in all job postings and calculates the corresponding median salary. 
@@ -660,7 +665,7 @@ plt.tight_layout()
 plt.show()
 ``` 
 
-### Result 
+### Result  
 ![alt text](Images\4_Optimal_Skills.png)
 
 
