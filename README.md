@@ -239,7 +239,7 @@ plt.tight_layout()
 ```
 ### Result 
 
-![1_Skills_Demand](Images\1_Skills_Demand.png)
+![1_Skills_Demand](Images/1_Skills_Demand.png)
 
 ### Insight 
 
@@ -442,7 +442,7 @@ plt.tight_layout()
 ```
 ### Result
 
-![alt text](Images\2_Skills_Trend.png) 
+![alt text](Images/2_Skills_Trend.png ) 
 
 ### Insight 
 
@@ -490,7 +490,7 @@ ax.xaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: f'{int(x/1000)}K')
 ```
 
 ### Result 
-![alt text](Images\3_Salary_Analysis.png) 
+![alt text](Images/3_Salary_Analysis.png ) 
 
 ### Insights 
 
