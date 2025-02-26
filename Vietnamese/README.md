@@ -445,7 +445,7 @@ plt.tight_layout()
 
 ### Kết quả 
 
-![Image 2](../Images/2_Skills_Demand.png)
+![Image 2](../Images/2_Skills_Trend.png)
 
 ### Thông tin rút ra 
 
@@ -492,7 +492,7 @@ ax.xaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: f'{int(x/1000)}K')
 ```
 
 ### Kết quả 
-![Image 3](../Images/3_Skills_Demand.png)
+![Image 3](../Images/3_Salary_Analysis.png)
 
 ### Thông tin rút ra 
 
@@ -666,7 +666,7 @@ plt.show()
 ``` 
 
 ### Kết quả 
-![Image 4](../Images/4_Skills_Demand.png)
+![Image 4](../Images/4_Optimal_Skills.png)
 
 ### Thông tin rút được 
 
