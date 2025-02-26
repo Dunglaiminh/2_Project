@@ -240,7 +240,7 @@ plt.tight_layout()
 ``` 
 ### Kết quả 
 
-![1_Skills_Demand]([Images/1_Skills_Demand.png](https://github.com/Dunglaiminh/Python_project/blob/95f61594c4bd6622f120b30e7b2e6e1858b0dd6e/Images/1_Skills_Demand.png)) 
+![Skills Demand](../Images/1_Skills_Demand.png)
 
 ### Thông tin rút ra 
 
@@ -445,7 +445,7 @@ plt.tight_layout()
 
 ### Kết quả 
 
-![alt text](Images/2_Skills_Trend.png) 
+![Image 2](../Images/2_Skills_Demand.png)
 
 ### Thông tin rút ra 
 
@@ -492,7 +492,7 @@ ax.xaxis.set_major_formatter(mtick.FuncFormatter(lambda x, _: f'{int(x/1000)}K')
 ```
 
 ### Kết quả 
-![alt text](Images/3_Salary_Analysis.png)  
+![Image 3](../Images/3_Skills_Demand.png)
 
 ### Thông tin rút ra 
 
@@ -666,7 +666,7 @@ plt.show()
 ``` 
 
 ### Kết quả 
-![alt text](Images/4_Optimal_Skills.png) 
+![Image 4](../Images/4_Skills_Demand.png)
 
 ### Thông tin rút được 
 
